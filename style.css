@@ -1,0 +1,475 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* Universal Selector Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* End Reset */
+
+
+body {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  text-align: left;
+  font: 11px/1em "Lucida Grande", Lucida, Verdana, sans-serif;
+  /* Necessary for gradient to work properly */
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1600px;
+}
+
+h1 {
+  font-family: "cooper-black-std", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  /* line-height: ; */
+  color: black;
+  /* margin-bottom: ; */
+  padding-left: 1%;
+  display: flex;
+  margin: 0 0 0 .45em;
+
+}
+
+.divider1 {
+  height: 200px;
+  width: 100%;
+}
+
+.hello {
+  /* text-align: center; */
+  font-size: 110px;
+  line-height: ;
+  /* width: 100%; */
+  /* margin: 0 auto;
+  padding: 1%; */
+  -webkit-text-stroke: 2px #000;
+  /* justify-content: left; */
+  margin-bottom: 90px;
+}
+
+
+h3 {
+  font-size: 110px;
+  line-height: ;
+  color: ;
+  margin: 0 auto;
+  padding: 1%;
+  -webkit-text-stroke: 2px #000;
+}
+
+.container {
+  /* padding-top: 20px; */
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: nowrap;
+  /* flex-flow: column wrap; */
+  align-items: center;
+  justify-content: space-evenly;
+  white-space: nowrap;
+  visibility: hidden;
+}
+
+.container>img {
+  width: 200px;
+  height: 200px;
+  align-items: flex-start;
+}
+
+.text {
+  font-size: 20px;
+  /* padding-left: 70px; */
+  padding-right: 50px;
+}
+
+p {
+ 
+}
+
+#divider2 {
+  height: 75px;
+  width: 100%;
+}
+
+#intro {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+header {
+  width: 100%;
+height: 100px;
+
+  /* margin-bottom: 70px; */
+}
+
+nav {
+  /* float:right; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 10;
+  background: inherit;
+}
+
+.sticky {
+  background-color: white;
+}
+
+.contentNav {
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  /* padding: 2em; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+nav li {
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 10px;
+  white-space: nowrap;
+  display: inline;
+  list-style-type: none;
+  padding-right: 1.5em;
+  text-align: center;
+  font-weight: 400;
+  /* justify-content: space-between; */
+  /* padding-left: 5em;
+  padding-right: 2em; */
+}
+
+nav li a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: var(--mint);
+  text-decoration: none;
+  /* font-weight: normal; */
+}
+
+nav li a:visited {
+  color: ;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#homeImg {
+
+  width: 370px;
+  height: 370px;
+  padding-left: 60px;
+  top: -400px;
+
+
+}
+
+.content {
+  /* display: none; */
+  padding-top: 20px;
+  /* visibility: hidden; */
+}
+
+main {
+  width:85% ;
+  margin:3% auto;
+  margin-bottom: 100px;
+  z-index: 5;
+  overflow: auto;
+  height: auto;
+}
+
+aside {}
+
+
+footer {
+  clear: both;
+  width: 100%;
+  height: 200px
+}
+
+/* ABOUT ME STYLING */
+.aboutContent {
+  text-align: center;
+  padding: 20px;
+}
+
+.divider3 {
+  height: 100px;
+  width: 100%;
+}
+
+.flexAbout {
+  /* width: 50%; */
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+
+}
+
+#littleAbout {
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  padding-top: 60px;
+  /* padding-bottom: 40px;
+  padding-left: 40px; */
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+
+}
+
+.aboutTextImg {
+  margin-top: 5%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 580px;   
+
+}
+
+#about {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  line-height:4px;
+  color:black;
+  margin-bottom: ;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  padding: 25px;
+  margin-right: 5%;
+  line-height: 40px;
+}
+
+#aboutImg {
+  width: 300px;
+  height: 300px;
+  padding-right: 20px;
+}
+
+
+/* GALLERY STYLING */
+#welcomeGal {
+  margin: auto;
+  /* padding-top: 50px; */
+  font-family: 'Prata', serif;
+  text-align: center;
+  font-weight: 300px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.gallerycontent {
+  white-space: nowrap;
+  text-align: center;
+  padding: 20px;
+  width: 85%;
+}
+
+/* Center the text and image horizontally */
+.flexgallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* Wrap to a new line if space is insufficient */
+  flex-direction: row;
+}
+
+/* Style the paragraph */
+.galleryDesc {
+  flex: 1;
+  /* Allow it to grow to take available space */
+  font-size: 18px;
+  padding: 20px;
+  /* Add spacing around the text */
+  line-height: 40px;
+}
+
+/* Style the image */
+.flexgallery>a {
+  /* width: 500px; */
+  height: auto;
+  max-width: 100%;
+
+  /* Ensure the image doesn't exceed its container */
+  padding-right: 35px;
+  padding-bottom: 35px;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  height: auto;
+  margin: auto;
+}
+
+#gallery>a{
+  padding-top: 5px;
+  padding: 5px;
+
+}
+/* Media Queries */
+
+@media screen and (max-width: 769px) {
+
+  /* Increase font sizes for larger screens */
+body{
+    font-size: 18px;
+    align-items: left;
+    flex-direction: column;
+  }
+
+  .contentNav {
+    flex-direction: column;
+    /* Stack elements vertically */
+    align-items: center;
+    /* margin: 3px; */
+    /* background-color: white; */
+  }
+
+  h1 {
+    padding-left: 0;
+    padding-right: 2px;
+  }
+
+  nav {
+    /* flex-direction: column; */
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: min-content;
+    padding-bottom:15px;
+    margin-bottom: 10px;
+  }
+ 
+ 
+
+  nav ul {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 3px;
+
+
+  }
+
+  nav li {
+    margin: 5px;
+    padding-right: 0;
+  }
+  .container{
+    padding-top: 70px;
+    width:min-content;
+    flex-direction: column;
+    align-items: left;
+  }
+  .text {
+    font-size: 16px;
+    flex-direction: column;
+  }
+  .imgindex{
+    align-items: left;
+    padding-top: 10px;
+  }
+  #welcomeGal {
+    padding-top: 50px;}
+
+}
+
+
+
+
+
+/* ANIMATION */
+
+@keyframes fadeInAnimation {
+  0% {
+    /* display: none; */
+    opacity: 0%;
+    transform: translateY(1000%);
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hello {
+  animation: fadeInAnimation ease 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+}
+
+.nameAnimation {
+  animation: fadeInAnimation ease 2.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+  ;
+}
+.pulsephoto:hover{
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+
+}
+#intro {
+  animation: fadeInAnimation ease 2.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  ;
+}
+
+#homeImg {
+  animation: fadeInAnimation ease 2.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .25s;
+  ;
+}
